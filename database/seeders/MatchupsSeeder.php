@@ -2,10 +2,10 @@
 
 namespace Database\Seeders;
 
+use App\Models\Matchup;
 use Illuminate\Database\Seeder;
-use App\Models\Member;
 
-class MembersSeeder extends Seeder
+class MatchupsSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -14,6 +14,6 @@ class MembersSeeder extends Seeder
      */
     public function run()
     {
-        Member::factory()->count(30)->create();
+        Matchup::factory()->count(115)->create();
     }
 }

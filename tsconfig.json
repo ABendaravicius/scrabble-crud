@@ -1,9 +1,20 @@
 {
-    "compilerOptions": {
-        "target": "esnext",
-        "module": "esnext",
-        "strict": true,
-        "jsx": "preserve",
-        "moduleResolution": "node"
-    }
+  "compilerOptions": {
+      "target": "esnext",
+      "module": "esnext",
+      "strict": true,
+      "jsx": "preserve",
+      "moduleResolution": "node"
+  },
+  "paths": {
+    "@/*": ["resources/*"]
+  },
+  "include": [
+    "resources/**/*.ts",
+    "resources/**/*.tsx",
+    "resources/**/*.vue",
+    "resources/**/*.ts",
+    "resources/**/*.tsx"
+  ],
+  "exclude": ["node_modules"]
 }
